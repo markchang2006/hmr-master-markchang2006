@@ -89,7 +89,7 @@ def visualize(img_path, img, proc_param, joints, verts, cam):
     plt.title('diff vp')
     plt.axis('off')
     plt.draw()
-    plt.savefig("hmr/output/images/"+os.path.splitext(os.path.basename(img_path))[0]+".png")
+    plt.savefig("hmr-master-markchang2006/output/images/"+os.path.splitext(os.path.basename(img_path))[0]+".png")
     # import ipdb
     # ipdb.set_trace()
 
@@ -174,11 +174,11 @@ def main(img_path, json_path=None):
     joints_export['hip.Center_y'] = hipCenter.iloc[0][1::3].sum()/2
     joints_export['hip.Center_z'] = hipCenter.iloc[0][2::3].sum()/2
     
-    joints_export.to_csv("hmr/output/csv/"+os.path.splitext(os.path.basename(img_path))[0]+".csv")
+    joints_export.to_csv("hmr-master-markchang2006/output/csv/"+os.path.splitext(os.path.basename(img_path))[0]+".csv")
     
 #     pose = pd.DataFrame(theta[:, 3:75])
     
-#     pose.to_csv("hmr/output/theta_test.csv", header=None, index=None)
+#     pose.to_csv("hmr-master-markchang2006/output/theta_test.csv", header=None, index=None)
     
 #     print('THETA:', pose.shape, pose)
     
@@ -189,14 +189,14 @@ def main(img_path, json_path=None):
     visualize(img_path, img, proc_param, joints[0], verts[0], cams[0])
 
 def join_csv():
-  path = 'hmr/output/csv/'                   
+  path = 'hmr-master-markchang2006/output/csv/'                   
   all_files = glob.glob(os.path.join(path, "*.csv"))
   all_files.sort(key=lambda x: x.split('/')[-1].split('.')[0])
   df_from_each_file = (pd.read_csv(f) for f in all_files)
   concatenated_df   = pd.concat(df_from_each_file, ignore_index=True)
 
   concatenated_df['frame'] = concatenated_df.index+1
-  concatenated_df.to_csv("hmr/output/csv_joined/csv_joined.csv", index=False)
+  concatenated_df.to_csv("hmr-master-markchang2006/output/csv_joined/csv_joined.csv", index=False)
     
 if __name__ == '__main__':
     config = flags.FLAGS
@@ -212,4 +212,4 @@ if __name__ == '__main__':
     
     join_csv()
     
-    print('\nResult is in hmr/output (you can open images in Colaboratory by double-clicking them)')
+    print('\nResult is in hmr-master-markchang2006/output (you can open images in Colaboratory by double-clicking them)')
