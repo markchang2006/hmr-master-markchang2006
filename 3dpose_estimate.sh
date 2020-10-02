@@ -7,7 +7,7 @@ for f in keras_Realtime_Multi-Person_Pose_Estimation/sample_images/*; do
   
   echo "Processing $no_ext"
   
-  python demo.py --img_path $f \
+  python2 demo.py --img_path $f \
                      --json_path keras_Realtime_Multi-Person_Pose_Estimation/sample_jsons/$no_ext.json  
   
 done
