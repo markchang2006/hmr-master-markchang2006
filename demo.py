@@ -9,8 +9,8 @@ Alternatively, you can supply output of the openpose to figure out the bbox and 
 Sample usage:
 
 # On images on a tightly cropped image around the person
-python -m demo --img_path hmr-master-markchang2006/data/im1963.jpg
-python -m demo --img_path hmr-master-markchang2006/data/coco1.png
+python -m demo --img_path data/im1963.jpg
+python -m demo --img_path data/coco1.png
 
 # On images, with openpose output
 pip2 -m demo --img_path data/random.jpg --json_path data/random_keypoints.json
@@ -36,7 +36,7 @@ import pandas as pd
 import os
 import glob
 
-flags.DEFINE_string('img_path', 'hmr-master-markchang2006/data/im1963.jpg', 'Image to run')
+flags.DEFINE_string('img_path', 'data/im1963.jpg', 'Image to run')
 flags.DEFINE_string(
     'json_path', None,
     'If specified, uses the openpose output to crop the image.')
