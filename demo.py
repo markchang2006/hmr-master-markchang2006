@@ -13,7 +13,7 @@ python -m demo --img_path data/im1963.jpg
 python -m demo --img_path data/coco1.png
 
 # On images, with openpose output
-python -m demo --img_path data/random.jpg --json_path data/random_keypoints.json
+pip2 -m demo --img_path data/random.jpg --json_path data/random_keypoints.json
 """
 from __future__ import absolute_import
 from __future__ import division
