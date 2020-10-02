@@ -23,9 +23,9 @@ model_dir = osp.join(curr_path, '..', 'models')
 if not osp.exists(model_dir):
     print('Fix path to models/')
     
-    from IPython.core.debugger import Pdb
+from IPython.core.debugger import Pdb
 ipdb = Pdb()
-    import ipdb
+import ipdb
     
     ipdb.set_trace()
 SMPL_MODEL_PATH = osp.join(model_dir, 'neutral_smpl_with_cocoplus_reg.pkl')
