@@ -12,10 +12,10 @@ for object in objects:
         
 print(empties)
 
-filename = 'csv_joined.csv'
-directory = r'hmr-master-markchang2006/output/csv_joined'  # <-- if you have linux or osx
+#filename = 'csv_joined.csv'
+#directory = r'hmr-master-markchang2006/output/csv_joined'  # <-- if you have linux or osx
 
-fullpath = os.path.join(directory, filename)
+fullpath = os.path.join(hmr-master-markchang2006/output/csv_joined, csv_joined.csv)
 
 with open(fullpath, 'r', newline='') as csvfile:
     ofile = csv.reader(csvfile, delimiter=',')
