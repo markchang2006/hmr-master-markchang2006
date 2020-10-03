@@ -18,11 +18,11 @@ print(empties)
 import os.path
 from pathlib import Path
 filename = 'csv_joined.csv'
-directory = r'hmr-master-markchang2006/output/csv_joined'  # <-- if you have linux or o
+directory = 'hmr-master-markchang2006/output/csv_joined' 
 
 fullpath = os.path.join(directory, filename)
 
-with open(fullpath, 'r', newline='') as csvfile:
+with open(fullpath, newline='') as csvfile:
     ofile = csv.reader(csvfile, delimiter=',')
     next(ofile) # <-- skip the x,y,z header
 
