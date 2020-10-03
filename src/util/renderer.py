@@ -9,6 +9,9 @@ from __future__ import print_function
 import numpy as np
 import cv2
 
+import sys
+sys.path.extend(['/content/models/research/', '/content/models/research/slim/'])
+
 from opendr.camera import ProjectPoints
 from opendr.renderer import ColoredRenderer
 from opendr.lighting import LambertianPointLight
