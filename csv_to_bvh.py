@@ -18,7 +18,7 @@ print(empties)
 import os.path
 from pathlib import Path
 filename = 'csv_joined.csv'
-directory = '../hmr-master-markchang2006/output/csv_joined' 
+directory = '/content/keras_Realtime_Multi-Person_Pose_Estimation/hmr-master-markchang2006/' 
 
 fullpath = os.path.join(directory, filename)
 
