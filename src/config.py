@@ -29,7 +29,7 @@ import ipdb
     
 #ipdb.set_trace()
 SMPL_MODEL_PATH = osp.join(model_dir, 'neutral_smpl_with_cocoplus_reg.pkl')
-SMPL_FACE_PATH = osp.join(curr_path, '../src/tf_smpl', 'smpl_faces.npy')
+SMPL_FACE_PATH = osp.join(curr_path, '..\src\tf_smpl', 'smpl_faces.npy')
 
 # Default pred-trained model path for the demo.
 PRETRAINED_MODEL = osp.join(model_dir, 'model.ckpt-667589')
@@ -57,7 +57,7 @@ flags.DEFINE_string(
 
 # Training settings:
 # TODO! If you want to train, change this to your 'tf_datasets' or specify it with the flag.
-DATA_DIR = '/scratch1/projects/tf_datasets/'
+DATA_DIR = '\scratch1\projects\tf_datasets/'
 
 flags.DEFINE_string('data_dir', DATA_DIR, 'Where to save training models')
 flags.DEFINE_string('log_dir', 'logs', 'Where to save training models')
