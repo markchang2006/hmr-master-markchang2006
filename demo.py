@@ -27,15 +27,15 @@ import skimage.io as io
 import tensorflow as tf
 
 #from src.util import renderer as vis_util
-from hmr_master_markchang2006.src.util import renderer as vis_util
+import hmr_master_markchang2006.src.util.renderer as vis_util
 #from src.util import image as img_util
-from hmr_master_markchang2006.src.util import image as img_util
+import hmr_master_markchang2006.src.util.image as img_util
 #from src.util import openpose as op_util
-from hmr_master_markchang2006.src.util import openpose as op_util
+import hmr_master_markchang2006.src.util.openpose as op_util
 #import src.config
-from hmr_master_markchang2006.src import config
+import hmr_master_markchang2006.src.config
 #from src.RunModel import RunModel
-from hmr_master_markchang2006.src.RunModel.py import RunModel
+import hmr_master_markchang2006.src.RunModel.RunModel
 
 import pandas as pd 
 import os
