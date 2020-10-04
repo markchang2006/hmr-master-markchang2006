@@ -28,11 +28,11 @@ import tensorflow as tf
 
 sys.path.append('/hmr_master_markchang2006/src/util')
 #from src.util import renderer as vis_util
-import renderer as vis_util
+from renderer import SMPLRenderer as vis_util
 #from src.util import image as img_util
-import image as img_util
+from image import image as img_util
 #from src.util import openpose as op_util
-import openpose as op_util
+from openpose import openpose as op_util
 #import src.config
 
 sys.path.append('/hmr_master_markchang2006/src')
