@@ -89,7 +89,7 @@ def visualize(img_path, img, proc_param, joints, verts, cam):
     plt.title('diff vp')
     plt.axis('off')
     plt.draw()
-    plt.savefig("hmr-master-markchang2006\output\images\"+os.path.splitext(os.path.basename(img_path))[0]+".png")
+    plt.savefig("\hmr-master-markchang2006\output\images\"+os.path.splitext(os.path.basename(img_path))[0]+".png")
     # import ipdb
     # ipdb.set_trace()
 
