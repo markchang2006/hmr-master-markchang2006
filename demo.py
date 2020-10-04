@@ -26,6 +26,8 @@ import numpy as np
 import skimage.io as io
 import tensorflow as tf
 
+    print ()
+
 from src.util import renderer as vis_util
 from src.util import image as img_util
 from src.util import openpose as op_util
