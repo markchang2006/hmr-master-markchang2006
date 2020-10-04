@@ -26,14 +26,14 @@ import numpy as np
 import skimage.io as io
 import tensorflow as tf
 
-print (src\util)
-print (renderer)
+print ('src\util')
+print ('renderer')
 
-from src\util import renderer as vis_util
-from src\util import image as img_util
-from src\util import openpose as op_util
-import src\config
-from src\RunModel import RunModel
+from 'src\util' import renderer as vis_util
+from 'src\util' import image as img_util
+from 'src\util' import openpose as op_util
+import 'src\config'
+from 'src\RunModel' import RunModel
 
 import pandas as pd 
 import os
