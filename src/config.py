@@ -30,7 +30,7 @@ from IPython.core.debugger import Pdb
 ipdb = Pdb()
 import ipdb
     
-ipdb.set_trace()
+#ipdb.set_trace()
 SMPL_MODEL_PATH = osp.join(model_dir, 'neutral_smpl_with_cocoplus_reg.pkl')
 SMPL_FACE_PATH = osp.join(curr_path, '../src/tf_smpl', 'smpl_faces.npy')
 
