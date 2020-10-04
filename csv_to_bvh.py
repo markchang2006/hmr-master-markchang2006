@@ -18,7 +18,7 @@ print(empties)
 import os.path
 from pathlib import Path
 filename = 'csv_joined.csv'
-directory = '\content\keras_Realtime_Multi-Person_Pose_Estimation\hmr-master-markchang2006\output\csv_joined\' 
+directory = '/content/keras_Realtime_Multi-Person_Pose_Estimation/hmr-master-markchang2006/output/csv_joined/' 
 
 fullpath = os.path.join(directory, filename)
 
@@ -49,6 +49,6 @@ with open(fullpath, newline='') as csvfile:
 
 bpy.data.objects['rig'].select = True
 
-target_file = 'hmr-master-markchang2006\output\bvh_animation\estimated_animation.bvh'
+target_file = 'hmr-master-markchang2006/output/bvh_animation/estimated_animation.bvh'
 
 bpy.ops.export_anim.bvh(filepath=target_file)
