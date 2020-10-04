@@ -26,7 +26,8 @@ import numpy as np
 import skimage.io as io
 import tensorflow as tf
 
-    print ()
+    print (src.util)
+    print (render)
 
 from src.util import renderer as vis_util
 from src.util import image as img_util
