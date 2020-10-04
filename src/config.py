@@ -33,6 +33,8 @@ import ipdb
 #ipdb.set_trace()
 SMPL_MODEL_PATH = osp.join(model_dir, 'neutral_smpl_with_cocoplus_reg.pkl')
 SMPL_FACE_PATH = osp.join(curr_path, '../src/tf_smpl', 'smpl_faces.npy')
+    print(SMPL_MODEL_PATH)
+    print(SMPL_FACE_PATH)
 
 # Default pred-trained model path for the demo.
 PRETRAINED_MODEL = osp.join(model_dir, 'model.ckpt-667589')
