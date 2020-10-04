@@ -26,16 +26,19 @@ import numpy as np
 import skimage.io as io
 import tensorflow as tf
 
+sys.path.append('/hmr_master_markchang2006/src/util')
 #from src.util import renderer as vis_util
-import hmr_master_markchang2006.src.util.renderer as vis_util
+import renderer as vis_util
 #from src.util import image as img_util
-import hmr_master_markchang2006.src.util.image as img_util
+import image as img_util
 #from src.util import openpose as op_util
-import hmr_master_markchang2006.src.util.openpose as op_util
+import openpose as op_util
 #import src.config
-import hmr_master_markchang2006.src.config
+
+sys.path.append('/hmr_master_markchang2006/src')
+import config
 #from src.RunModel import RunModel
-import hmr_master_markchang2006.src.RunModel.RunModel
+import RunModel as RunModel
 
 import pandas as pd 
 import os
