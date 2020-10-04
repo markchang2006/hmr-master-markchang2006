@@ -189,7 +189,7 @@ def main(img_path, json_path=None):
     visualize(img_path, img, proc_param, joints[0], verts[0], cams[0])
 
 def join_csv():
-  path = 'hmr-master-markchang2006/output/csv\'                   
+  path = 'hmr-master-markchang2006/output/csv/'                   
   all_files = glob.glob(os.path.join(path, "*.csv"))
   all_files.sort(key=lambda x: x.split('/')[-1].split('.')[0])
   df_from_each_file = (pd.read_csv(f) for f in all_files)
@@ -212,4 +212,4 @@ if __name__ == '__main__':
     
     join_csv()
     
-    print('/nResult is in hmr-master-markchang2006\output (you can open images in Colaboratory by double-clicking them)')
+    print('/nResult is in hmr-master-markchang2006/output (you can open images in Colaboratory by double-clicking them)')
