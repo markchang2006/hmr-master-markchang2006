@@ -18,8 +18,10 @@ import json
 
 import numpy as np
 
-curr_path = osp.dirname(osp.abspath(__file__))
-model_dir = osp.join(curr_path,'models')
+#curr_path = osp.dirname(osp.abspath(__file__))
+#model_dir = osp.join(curr_path,'models')
+curr_path = ('/content/keras_Realtime_Multi-Person_Pose_Estimation/hmr-master-markchang2006/src')
+model_dir = ('/content/keras_Realtime_Multi-Person_Pose_Estimation/hmr-master-markchang2006/src/models')
 if not osp.exists(model_dir):
     print('Fix path to models/')
     print(curr_path,model_dir)
