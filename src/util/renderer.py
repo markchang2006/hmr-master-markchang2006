@@ -6,6 +6,7 @@ from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function
 
+git clone https://github.com/polmorenoc/opendr.git
 import numpy as np
 import cv2
 
