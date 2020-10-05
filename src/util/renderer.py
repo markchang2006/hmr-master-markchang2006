@@ -6,21 +6,19 @@ from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function
 
-git clone https://github.com/polmorenoc/opendr.git
 import numpy as np
 import cv2
 
 import sys
 #sys.path.extend(['/content/models/research/', '/content/models/research/slim/'])
-sys.path.insert(0, '/content/opendr/opendr/')
+sys.path.insert(0, '/opendr/tree/master/opendr/opendr/')
 
-python setup.py build
-python setup.py install
+
 
 #from opendr.camera import ProjectPoints
-from opendr.tree.master.opendr.camera import ProjectPoints
-from opendr.tree.master.opendr.renderer import ColoredRenderer
-from opendr.tree.master.opendr.lighting import LambertianPointLight
+from camera import ProjectPoints
+from renderer import ColoredRenderer
+from lighting import LambertianPointLight
 
 colors = {
     # colorbline/print/copy safe:
