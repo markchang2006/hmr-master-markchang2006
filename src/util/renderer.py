@@ -12,12 +12,12 @@ import cv2
 import sys
 #sys.path.extend(['/content/models/research/', '/content/models/research/slim/'])
 #sys.path.insert(0, '../polmorenoc/opendr/tree/master/opendr/opendr/')
-sys.path.append('/content/polmorenoc/')
+sys.path.append('/content/polmorenoc/opendr')
 
 
 
 #from opendr.camera import ProjectPoints
-from camera.opendr.opendr import ProjectPoints
+from camera import ProjectPoints
 from renderer.py import ColoredRenderer
 from lighting.py import LambertianPointLight
 
