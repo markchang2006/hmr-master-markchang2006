@@ -17,8 +17,7 @@ print (sys.path)
 
 
 #from camera.opendr import ProjectPoints
-import camera.py
-ProjectPoints
+import ProjectPoints
 #from camera import ProjectPoints
 from renderer import ColoredRenderer
 from lighting import LambertianPointLight
