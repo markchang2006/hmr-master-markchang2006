@@ -9,16 +9,16 @@ from __future__ import print_function
 import numpy as np
 import cv2
 
-import sys
+#import sys
 #sys.path.extend(['/content/models/research/', '/content/models/research/slim/'])
 #sys.path.insert(1, '../polmorenoc/opendr/opendr/')
-sys.path.append('/polmorenoc/opendr/opendr')
+#sys.path.append('/polmorenoc/opendr/opendr')
 
 from opendr.camera import ProjectPoints
 #import ProjectPoints.camera
 #from camera import ProjectPoints
-from renderer import ColoredRenderer
-from lighting import LambertianPointLight
+from opendr.renderer import ColoredRenderer
+from opendr.lighting import LambertianPointLight
 
 colors = {
     # colorbline/print/copy safe:
