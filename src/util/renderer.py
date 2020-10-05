@@ -14,7 +14,7 @@ import sys
 sys.path.insert(1, '../polmorenoc/opendr/opendr/')
 #sys.path.append('/content/polmorenoc/opendr/opendr')
 
-from opendr.camera import ProjectPoints
+from opendr.opendr.camera import ProjectPoints
 #import ProjectPoints.camera
 #from camera import ProjectPoints
 from opendr.renderer import ColoredRenderer
