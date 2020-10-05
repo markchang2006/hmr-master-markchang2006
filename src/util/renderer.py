@@ -17,7 +17,7 @@ sys.path.append('/content/polmorenoc/opendr/opendr/')
 
 
 #from opendr.camera import ProjectPoints
-from camera import ProjectPoints
+from opendr.camera import ProjectPoints
 from renderer.py import ColoredRenderer
 from lighting.py import LambertianPointLight
 
