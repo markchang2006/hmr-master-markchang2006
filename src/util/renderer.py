@@ -14,6 +14,7 @@ import cv2
 #sys.path.insert(1, '../polmorenoc/opendr/opendr/')
 #sys.path.append('/content/polmorenoc/opendr/opendr')
 
+pip install pip
 pip install import_from_github_com
 from github_com.polmorenoc.opendr.opendr.camera import ProjectPoints
 
