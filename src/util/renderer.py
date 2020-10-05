@@ -12,7 +12,7 @@ import cv2
 import sys
 #sys.path.extend(['/content/models/research/', '/content/models/research/slim/'])
 #sys.path.insert(0, '../polmorenoc/opendr/tree/master/opendr/opendr/')
-sys.path.append('/polmorenoc/opendr/tree/master/opendr/opendr/')
+sys.path.append('....../polmorenoc/opendr/opendr/opendr/')
 
 
 
