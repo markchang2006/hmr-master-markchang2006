@@ -13,7 +13,7 @@ import sys
 #sys.path.extend(['/content/models/research/', '/content/models/research/slim/'])
 sys.path.insert(1, '../polmorenoc/opendr/opendr/')
 #sys.path.append('/polmorenoc/opendr/opendr')
-
+print sys.path
 
 
 #from camera.opendr import ProjectPoints
