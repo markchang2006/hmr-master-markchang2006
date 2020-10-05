@@ -14,9 +14,9 @@ import sys
 sys.path.insert(0, '/content/opendr/opendr/')
 
 #from opendr.camera import ProjectPoints
-from camera import ProjectPoints
-from opendr.renderer import ColoredRenderer
-from opendr.lighting import LambertianPointLight
+from opendr.tree.master.opendr.camera import ProjectPoints
+from opendr.tree.master.opendr.renderer import ColoredRenderer
+from opendr.tree.master.opendr.lighting import LambertianPointLight
 
 colors = {
     # colorbline/print/copy safe:
