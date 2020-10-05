@@ -13,7 +13,8 @@ import sys
 #sys.path.extend(['/content/models/research/', '/content/models/research/slim/'])
 sys.path.insert(0, '/content/opendr/opendr/')
 
-from opendr.camera import ProjectPoints
+#from opendr.camera import ProjectPoints
+from camera import ProjectPoints
 from opendr.renderer import ColoredRenderer
 from opendr.lighting import LambertianPointLight
 
