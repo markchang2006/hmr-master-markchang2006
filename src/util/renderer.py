@@ -9,12 +9,15 @@ from __future__ import print_function
 import numpy as np
 import cv2
 
-import sys
+#import sys
 #sys.path.extend(['/content/models/research/', '/content/models/research/slim/'])
-sys.path.insert(1, '../polmorenoc/opendr/opendr/')
+#sys.path.insert(1, '../polmorenoc/opendr/opendr/')
 #sys.path.append('/content/polmorenoc/opendr/opendr')
 
-from opendr.opendr.camera import ProjectPoints
+pip install import_from_github_com
+from github_com.polmorenoc.opendr.opendr.camera import ProjectPoints
+
+#from opendr.opendr.camera import ProjectPoints
 #import ProjectPoints.camera
 #from camera import ProjectPoints
 from opendr.renderer import ColoredRenderer
