@@ -30,9 +30,9 @@ sys.path.append('/hmr_master_markchang2006/src/util')
 #from src.util import renderer as vis_util
 from src.util.renderer import renderer as vis_util
 #from src.util import image as img_util
-from image import image as img_util
+from src.util.image import image as img_util
 #from src.util import openpose as op_util
-from openpose import openpose as op_util
+from src.util.openpose import openpose as op_util
 #import src.config
 
 sys.path.append('/hmr_master_markchang2006/src')
