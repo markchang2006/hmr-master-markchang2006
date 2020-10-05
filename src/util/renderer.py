@@ -11,7 +11,7 @@ import cv2
 
 import sys
 #sys.path.extend(['/content/models/research/', '/content/models/research/slim/'])
-sys.path.insert(0, '/content/opendr/')
+sys.path.insert(0, '/content/opendr/opendr/')
 
 from opendr.camera import ProjectPoints
 from opendr.renderer import ColoredRenderer
