@@ -13,6 +13,9 @@ import sys
 #sys.path.extend(['/content/models/research/', '/content/models/research/slim/'])
 sys.path.insert(0, '/content/opendr/opendr/')
 
+python setup.py build
+python setup.py install
+
 #from opendr.camera import ProjectPoints
 from opendr.tree.master.opendr.camera import ProjectPoints
 from opendr.tree.master.opendr.renderer import ColoredRenderer
